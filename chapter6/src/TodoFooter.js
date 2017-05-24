@@ -3,6 +3,14 @@
  */
 import React from 'react';
 
+class TodoFooter extends React.Component{
+    render(){
+        return (
+            <li className="list-group-item">{this.props.todoCompleteCount}选中 / {this.props.todoCount}总数</li>
+        )
+    }
+}
+/*
 const TodoFooter = React.createClass({
     render: function() {
         return (
@@ -10,5 +18,6 @@ const TodoFooter = React.createClass({
         )
     }
 })
+*/
 
 export default TodoFooter;
