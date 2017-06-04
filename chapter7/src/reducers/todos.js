@@ -1,3 +1,7 @@
+/**
+ * Created by 陶鹏飞 on 2017/6/4.
+ */
+
 const todos = (state = [], action) => {
   switch (action.type) {
     case 'ADD_TODO':

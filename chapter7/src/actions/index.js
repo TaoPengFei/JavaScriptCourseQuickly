@@ -1,3 +1,7 @@
+/**
+ * Created by 陶鹏飞 on 2017/6/4.
+ */
+
 let nextTodoId = 0
 export const addTodo = (text) => ({
   type: 'ADD_TODO',
