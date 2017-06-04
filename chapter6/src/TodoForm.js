@@ -21,7 +21,7 @@ const TodoForm = React.createClass({
                 <hr />
                 <form className="form-horizontal" onSubmit={this.submitTask}>
                     <div className="form-group">
-                        <label for="task" className="col-xs-2 col-md-1  text-left control-label">账单</label>
+                        <label for="task" className="col-xs-2 col-md-1 control-label">账单</label>
                         <div className="col-xs-10 col-md-11">
                             <input type="text" id="task" ref="task" className="form-control" placeholder="账单数据"></input>
                         </div>
